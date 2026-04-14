@@ -3,13 +3,13 @@ $exe = "$PSScriptRoot\SoundVolumeView.exe"
 $mic_1 = "First Micro ID"
 $mic_2 = "Second Micro ID"
 
-# выключаем обычный микрофон
+# выключаем микрофон
 & $exe /Disable $mic_1
 
-# включаем гарнитуру
+# включаем микрофон
 & $exe /Enable $mic_2
 
-# делаем её основной
+# делаем основным
 & $exe /SetDefault $mic_2 0
 & $exe /SetDefault $mic_2 1
 & $exe /SetDefault $mic_2 2
