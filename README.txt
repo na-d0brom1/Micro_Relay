@@ -1,0 +1,1 @@
+This is an application for remotely switching the microphone. To work, you need to add the device IDs to the mic_1 and mic_2 files. They can be found using Power Shell.
