@@ -1,7 +1,7 @@
 $exe = "$PSScriptRoot\SoundVolumeView.exe"
 
-$mic_1 = "{0.0.1.00000000}.{c7c53a5a-d610-499a-9095-4749925e8746}"
-$mic_2 = "{0.0.1.00000000}.{e63ba868-6d8a-4fc9-b1b1-91c4d134dbbf}"
+$mic_1 = "First Micro"
+$mic_2 = "Second Micro"
 
 # выключаем гарнитуру
 & $exe /Disable $mic_2
